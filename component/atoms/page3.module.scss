@@ -1,0 +1,37 @@
+.page3_wrap {
+  margin-top: -14rem;
+  padding-bottom: 1rem;
+  .content {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+    color: #141c3a;
+    display: block;
+  }
+  .column_box {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 6px;
+    text-align: center;
+    .column {
+      display: block;
+      padding: 70px 45px;
+      border-bottom: 0px solid #e6ecf8;
+      border-right: 1px solid #e6ecf8;
+      background-color: #ffffff;
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 1;
+      .list {
+        list-style: none;
+      }
+    }
+  }
+}
