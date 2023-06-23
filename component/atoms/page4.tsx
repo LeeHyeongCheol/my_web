@@ -12,21 +12,27 @@ export default function Page4() {
             <div className={styles.column_project}>
               <div className={styles.modal_project}>
                 <Image src="" alt="" />
+                <div className={styles.figlet}>안보이지롱</div>
               </div>
               <div className={styles.modal_project}>
                 <Image src="" alt="" />
+                <div className={styles.figlet}>안보이지롱</div>
               </div>
               <div className={styles.modal_project}>
                 <Image src="" alt="" />
+                <div className={styles.figlet}>안보이지롱</div>
               </div>
               <div className={styles.modal_project}>
                 <Image src="" alt="" />
+                <div className={styles.figlet}>안보이지롱</div>
               </div>
               <div className={styles.modal_project}>
                 <Image src="" alt="" />
+                <div className={styles.figlet}>안보이지롱</div>
               </div>
               <div className={styles.modal_project}>
                 <Image src="" alt="" />
+                <div className={styles.figlet}>안보이지롱</div>
               </div>
             </div>
           </div>
