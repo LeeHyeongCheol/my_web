@@ -18,11 +18,14 @@
           background-color: aqua;
           transform: all 3s ease-out;
           border-radius: 12px;
-          .figlet {
-            transform: all 3s ease-in;
+          .wrap {
+            height: 150px;
             opacity: 0;
+            transform: all 3s ease-in;
+            .figlet {
+            }
           }
-          .figlet:hover {
+          .wrap:hover {
             opacity: 1;
           }
           @media (max-width: 1188px) {
