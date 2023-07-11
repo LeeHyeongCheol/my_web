@@ -16,12 +16,10 @@
           width: 31%;
           height: 150px;
           background-color: aqua;
-          transform: all 3s ease-out;
           border-radius: 12px;
           .wrap {
             height: 150px;
             opacity: 0;
-            transform: all 3s ease-in;
             .figlet {
             }
           }
@@ -34,7 +32,7 @@
         }
         .modal_project:hover {
           background-color: rebeccapurple;
-          transform: scale(1.1);
+          transition: all ease 1s 0s;
         }
         @media (max-width: 768px) {
           flex-direction: row;
