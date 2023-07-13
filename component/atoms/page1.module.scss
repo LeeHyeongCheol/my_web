@@ -1,8 +1,27 @@
-.page1_wrap {
-  background-color: aquamarine;
+.page1 {
+  // background-color: aquamarine;
+  margin: 0 auto;
   text-align: center;
-
   width: 100%;
-  height: 500px;
-  font-size: 0;
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+    .title {
+      font-weight: 800;
+    }
+    .subtitle {
+      margin-top: 1.5%;
+    }
+    .pfimg {
+      margin: 1.5% auto;
+      width: 210px;
+      height: 220px;
+    }
+    .dvimg {
+      margin: 0 auto;
+      width: 500px;
+      height: 340px;
+    }
+  }
 }

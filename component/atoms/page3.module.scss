@@ -1,8 +1,8 @@
 .page3_wrap {
-  margin-top: -14rem;
+  margin-top: -8rem;
   padding-bottom: 1rem;
   .content {
-    max-width: 1350px;
+    max-width: 1050px;
     margin: 0 auto;
   }
   .box {
@@ -12,6 +12,7 @@
     .column_box {
       display: flex;
       justify-content: center;
+      width: 100%;
       margin-left: 0;
       margin-right: 0;
       overflow: hidden;
@@ -35,6 +36,9 @@
           list-style: none;
           padding: 0;
         }
+      }
+      .text_primary {
+        color: rgb(14, 132, 183);
       }
     }
   }

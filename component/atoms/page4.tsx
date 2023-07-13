@@ -6,7 +6,7 @@ export default function Page4() {
     <>
       <div className={styles.page4_bg}>
         <div className={styles.page4_wrap}>
-          <div>title</div>
+          <h1>My Recent Work</h1>
           <div>description</div>
           <div className={styles.grid}>
             <div className={styles.column_project}>
