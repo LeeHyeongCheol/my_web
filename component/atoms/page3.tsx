@@ -1,3 +1,5 @@
+import React from 'react';
+
 import styles from "./page3.module.scss";
 
 export default function Page3() {
@@ -25,21 +27,18 @@ export default function Page3() {
                 <h2>Design</h2>
                 <h2>tool</h2>
                 <ul className={styles.list}>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
+                  <li>Figma</li>
+                  <li>Zeplin</li>
+                  <li>Photoshop</li>
                 </ul>
               </div>
               <div className={styles.column}>
                 <h1>3</h1>
-                <h2>협업툴</h2>
+                <h2>cooperation</h2>
                 <h2>tool</h2>
                 <ul className={styles.list}>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
+                  <li>Slack</li>
+                  <li>Jira</li>
                 </ul>
               </div>
             </div>

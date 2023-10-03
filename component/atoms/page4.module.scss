@@ -9,7 +9,7 @@
       .column_project {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        // justify-content: center;
         .modal_project {
           display: block;
           margin: 0.75rem;
@@ -23,6 +23,8 @@
             height: 150px;
             opacity: 0;
             .figlet {
+              font-weight:bolder;
+              font-size: 30px;
             }
           }
           .wrap:hover {

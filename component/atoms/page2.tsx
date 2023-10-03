@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from "./page2.module.scss";
 import Image from "next/image";
 
@@ -6,18 +7,16 @@ export default function Page2() {
     <>
       <div className={styles.page2}>
         <div className={styles.wrap}>
-          <h1 className={styles.title}>Hi, I’m Matt. Nice to meet you.</h1>
+          <h1 className={styles.title}>Hi, I’m Lee Hyeongcheol. Nice to meet you.</h1>
           <h2 className={styles.subtitle}>
-            Since beginning my journey as a freelance designer over 11 years
+            「Front-end Engineer」としてデザイナーと企画者と協力してデザインと機能をウェブに実装したりとか多様な顧客のニーズを満たし、
             <br />
-            ago, done remote work for agencies, consulted for startups, and
+            エラーを予防できるようウェブを実装するために努力しています。主に「React.js、Next.js、TypeScript」を活用してウェブを実装していますが、
             <br />
-            collaborated with talented people to create digital products for
+            Next.js を活用して APIRoutes および SEO サポート、イメージ処理などをして、 React.js では Redux を活用して全域の状態管理および
             <br />
-            both business and consumer use. quietly confident, naturally
+            TypeScript を通じて合わない TYPE や関数のエラーを事前に予防しています。そして Chrome、Safari、Edge およびモバイル画面(iphone、Galaxy)も同様に実行されるようにResponsive を実装しています。
             <br />
-            curious, and perpetually working on improving my chops one design
-            problem at a time.
           </h2>
           <Image src="" alt="" />
         </div>
@@ -25,3 +24,5 @@ export default function Page2() {
     </>
   );
 }
+
+
