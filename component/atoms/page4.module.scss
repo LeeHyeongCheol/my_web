@@ -20,11 +20,14 @@
           background-color: aqua;
           border-radius: 12px;
           .wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 150px;
             opacity: 0;
             .figlet {
               font-weight:bolder;
-              font-size: 30px;
+              font-size: 70px;
             }
           }
           .wrap:hover {

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <div className={styles.footerbar}>
-        <div className={styles.email}>asber223@gmail.com</div>
+        <div className={styles.email}>r7042@naver.com</div>
       </div>
     </>
   );
