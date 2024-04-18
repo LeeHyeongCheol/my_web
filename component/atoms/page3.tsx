@@ -13,7 +13,7 @@ export default function Page3() {
                 <h1>1</h1>
                 <h2>Frontend Developer</h2>
                 <p className={styles.text_primary}>Languages :</p>
-                <p>React,Next.js,TypeScript,JavaScript</p>
+                <p>React,TypeScript,JavaScript</p>
                 <p className={styles.text_primary}>Tool</p>
                 <ul className={styles.list}>
                   <li>Bootstrap</li>
@@ -21,6 +21,7 @@ export default function Page3() {
                   <li>Visual Studio Code</li>
                   <li>Vercel</li>
                   <li>Terminal</li>
+                  <li>Next.js</li>
                   <li>Ionic</li>
                 </ul>
               </div>
