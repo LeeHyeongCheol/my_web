@@ -16,30 +16,32 @@ export default function Page3() {
                 <ul className={styles.list}>
                   <li>Bootstrap</li>
                   <li>Github</li>
+                  <li>Visual Studio Code</li>
                   <li>Vercel</li>
                   <li>Terminal</li>
+                  <li>Ionic</li>
                 </ul>
               </div>
               <div className={styles.column}>
                 <h1>2</h1>
-                <h2>Design</h2>
-                <h2>tool</h2>
+                <h2>CI/CD</h2>
+                <br />
+                <br />
+                <p className={styles.text_primary}>Tool</p>
                 <ul className={styles.list}>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
+                  <li>Jenkins</li>
+                  <li>GitLab</li>
                 </ul>
               </div>
               <div className={styles.column}>
                 <h1>3</h1>
-                <h2>협업툴</h2>
-                <h2>tool</h2>
+                <h2>チームワーク</h2>
+                <br />
+                <br />
+                <p className={styles.text_primary}>Tool</p>
                 <ul className={styles.list}>
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
+                  <li>Slack</li>
+                  <li>Jira</li>
                 </ul>
               </div>
             </div>

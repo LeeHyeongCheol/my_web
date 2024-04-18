@@ -12,8 +12,8 @@ export default function Page1() {
           <h2 className={styles.subtitle}>
             I code beautifully simple things, and I love what I do.
           </h2>
-          <Image className={styles.pfimg} src={profile_img} alt="" />
-          <Image className={styles.dvimg} src={device} alt="" />
+          <Image className={styles.pfimg} src={profile_img} alt="profile" />
+          <Image className={styles.dvimg} src={device} alt="device" />
         </div>
       </div>
     </>

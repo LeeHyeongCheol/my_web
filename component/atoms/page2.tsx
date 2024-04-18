@@ -6,7 +6,7 @@ export default function Page2() {
     <>
       <div className={styles.page2}>
         <div className={styles.wrap}>
-          <h1 className={styles.title}>Hi, I’m Matt. Nice to meet you.</h1>
+          <h1 className={styles.title}>Hi, I’m Lee. Nice to meet you.</h1>
           <h2 className={styles.subtitle}>
             Since beginning my journey as a freelance designer over 11 years
             <br />

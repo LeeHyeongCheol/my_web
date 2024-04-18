@@ -9,20 +9,24 @@
       .column_project {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        // justify-content: center;
         .modal_project {
-          display: block;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           margin: 0.75rem;
           width: 31%;
           height: 150px;
+          cursor: pointer;
           // X and Y:18px;
           // box-shadow: 10px 5px 5px #d1d9e6;
           background-color: aqua;
           border-radius: 12px;
           .wrap {
-            height: 150px;
-            opacity: 0;
+            // opacity: 0;
             .figlet {
+              font-size: 20px;
+              font-weight: 700;
             }
           }
           .wrap:hover {
