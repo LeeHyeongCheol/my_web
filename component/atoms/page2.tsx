@@ -11,15 +11,14 @@ export default function Page2() {
             Hi, I’m Lee Hyeongcheol. Nice to meet you.
           </h1>
           <h2 className={styles.subtitle}>
-            「Front-end
-            Engineer」としてデザイナーと企画者と協力してデザインと機能をウェブに実装したりとか多様な顧客のニーズを満たし、
-            エラーを予防できるようウェブを実装するために努力しています。主に「React.js、Next.js、TypeScript」を活用してウェブを実装していますが、
-            Next.js を活用して APIRoutes および SEO
-            サポート、イメージ処理などをして、 React.js では Redux
-            を活用して全域の状態管理および TypeScript を通じて合わない TYPE
-            や関数のエラーを事前に予防しています。そして Chrome、Safari、Edge
-            およびモバイル画面(iphone、Galaxy)も同様に実行されるようにResponsive
-            を実装しています。
+            I am working with designers and planners to implement designs and
+            functions on the web to meet the needs of various customers. They
+            mainly implement the web using React.js, Next.js, and TypeScript,
+            but they use Next.js to support API route and SEO and image
+            processing, and React.js uses Redux to prevent mismatched types and
+            functions through State Management and TypeScript, and implement
+            Responsive to ensure that Chrome, Safari, Edge, and Mobile screens
+            (iPhone, Galaxy) run the same way.
           </h2>
           <Image src="" alt="" />
         </div>

@@ -44,8 +44,6 @@ export default function Page3() {
                 <br />
                 <br />
                 <p className={styles.text_primary}>Tool</p>
-                <h2>cooperation</h2>
-                <h2>tool</h2>
                 <ul className={styles.list}>
                   <li>Slack</li>
                   <li>Jira</li>

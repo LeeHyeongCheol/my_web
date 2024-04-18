@@ -19,13 +19,6 @@ export default function Page4() {
                   >
                     <div className={styles.figlet}>Chocottoland-Project</div>
                   </Link>
-                  =======
-                  <a
-                    href="https://chocottoland.hange.jp/Event/tenken-collab/"
-                    className={styles.figlet}
-                  >
-                    CHOCO
-                  </a>
                 </div>
               </div>
               <div className={styles.modal_project}>
@@ -36,30 +29,39 @@ export default function Page4() {
                   >
                     <div className={styles.figlet}>Bejifurubingo-Project</div>
                   </Link>
-
-                  <a
-                    href="https://chocottoland.hange.jp/Event/tenken-collab_webevent/"
-                    className={styles.figlet}
-                  >
-                    CHOCO
-                  </a>
                 </div>
               </div>
               <div className={styles.modal_project}>
                 <div className={styles.wrap}>
-                  <a href="https://coconev.co.jp/" className={styles.figlet}>
+                  <Link
+                    href="https://coconev.co.jp/"
+                    target="_blank"
+                    className={styles.figlet}
+                  >
                     COCONE V
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className={styles.modal_project}>
                 <div className={styles.wrap}>
-                  <a
-                    href="https://event.hange.jp/202302/bejifuru_bingo/"
+                  <Link
+                    href="https://chocottoland.hange.jp/anniversary/17th/vote/"
+                    target="_blank"
                     className={styles.figlet}
                   >
-                    BINGO
-                  </a>
+                    Chocottoland-Vote
+                  </Link>
+                </div>
+              </div>
+              <div className={styles.modal_project}>
+                <div className={styles.wrap}>
+                  <Link
+                    href="https://www.oemoriplus.jp/"
+                    target="_blank"
+                    className={styles.figlet}
+                  >
+                    Oekaki-Plus
+                  </Link>
                 </div>
               </div>
             </div>
