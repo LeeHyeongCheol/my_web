@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect } from "react";
+import React, { ReactNode } from "react";
 import Head from "next/head";
 import Header from "./header";
 import Footer from "./footer";
@@ -13,7 +13,7 @@ export default function Layout({ children }: LayoutProps): JSX.Element {
       <Head>
         <meta name="description" content=""></meta>
         <meta name="keywords" content=""></meta>
-        <title></title>
+        <title>Lee-WEB</title>
       </Head>
       <div>
         <Header />
