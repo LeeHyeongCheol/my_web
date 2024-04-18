@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import styles from "./page4.module.scss";
 import Link from "next/link";
@@ -18,6 +19,13 @@ export default function Page4() {
                   >
                     <div className={styles.figlet}>Chocottoland-Project</div>
                   </Link>
+                  =======
+                  <a
+                    href="https://chocottoland.hange.jp/Event/tenken-collab/"
+                    className={styles.figlet}
+                  >
+                    CHOCO
+                  </a>
                 </div>
               </div>
               <div className={styles.modal_project}>
@@ -28,30 +36,30 @@ export default function Page4() {
                   >
                     <div className={styles.figlet}>Bejifurubingo-Project</div>
                   </Link>
-                </div>
-              </div>
-              <div className={styles.modal_project}>
-                <div className={styles.wrap}>
-                  <Link href="https://coconev.co.jp/" target="_blank">
-                    <div className={styles.figlet}>Corporate-Project</div>
-                  </Link>
-                </div>
-              </div>
-              <div className={styles.modal_project}>
-                <div className={styles.wrap}>
-                  <Link
-                    href="https://chocottoland.hange.jp/anniversary/17th/vote/"
-                    target="_blank"
+
+                  <a
+                    href="https://chocottoland.hange.jp/Event/tenken-collab_webevent/"
+                    className={styles.figlet}
                   >
-                    <div className={styles.figlet}>Chocottoland-Vote</div>
-                  </Link>
+                    CHOCO
+                  </a>
                 </div>
               </div>
               <div className={styles.modal_project}>
                 <div className={styles.wrap}>
-                  <Link href="https://www.oemoriplus.jp/" target="_blank">
-                    <div className={styles.figlet}>Oekaki-plus</div>
-                  </Link>
+                  <a href="https://coconev.co.jp/" className={styles.figlet}>
+                    COCONE V
+                  </a>
+                </div>
+              </div>
+              <div className={styles.modal_project}>
+                <div className={styles.wrap}>
+                  <a
+                    href="https://event.hange.jp/202302/bejifuru_bingo/"
+                    className={styles.figlet}
+                  >
+                    BINGO
+                  </a>
                 </div>
               </div>
             </div>

@@ -1,3 +1,5 @@
+import React from "react";
+
 import styles from "./page3.module.scss";
 
 export default function Page3() {
@@ -31,6 +33,9 @@ export default function Page3() {
                 <ul className={styles.list}>
                   <li>Jenkins</li>
                   <li>GitLab</li>
+                  <li>Figma</li>
+                  <li>Zeplin</li>
+                  <li>Photoshop</li>
                 </ul>
               </div>
               <div className={styles.column}>
@@ -39,6 +44,8 @@ export default function Page3() {
                 <br />
                 <br />
                 <p className={styles.text_primary}>Tool</p>
+                <h2>cooperation</h2>
+                <h2>tool</h2>
                 <ul className={styles.list}>
                   <li>Slack</li>
                   <li>Jira</li>
