@@ -8,11 +8,20 @@
     margin: 0 auto;
     .title {
       text-align: center;
-      margin-bottom: 1.5%;
+      margin-bottom: 4%;
     }
     .subtitle {
       font-weight: 400;
       margin-bottom: 10%;
+      @media (max-width: 1188px) {
+        margin-bottom: 15%;
+      }
+      @media (max-width: 768px) {
+        margin-bottom: 20%;
+      }     
+      @media (max-width: 520px) {
+        margin-bottom: 25%;
+      }    
     }
   }
 }

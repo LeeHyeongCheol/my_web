@@ -35,6 +35,9 @@
           @media (max-width: 1188px) {
             width: 45%;
           }
+          @media (max-width: 768px) {
+            width: 100%;
+          }
         }
         .modal_project:hover {
           background-color: rebeccapurple;
