@@ -52,18 +52,7 @@ export default function Page4() {
                     Chocottoland-Vote
                   </Link>
                 </div>
-              </div>
-              <div className={styles.modal_project}>
-                <div className={styles.wrap}>
-                  <Link
-                    href="https://www.oemoriplus.jp/"
-                    target="_blank"
-                    className={styles.figlet}
-                  >
-                    Oekaki-Plus
-                  </Link>
-                </div>
-              </div>
+              </div>              
             </div>
           </div>
         </div>

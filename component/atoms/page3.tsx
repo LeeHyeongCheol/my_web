@@ -37,6 +37,7 @@ export default function Page3() {
                   <li>Figma</li>
                   <li>Zeplin</li>
                   <li>Photoshop</li>
+                  <li>Amplify</li>
                 </ul>
               </div>
               <div className={styles.column}>
@@ -48,6 +49,7 @@ export default function Page3() {
                 <ul className={styles.list}>
                   <li>Slack</li>
                   <li>Jira</li>
+                  <li>Notion</li>
                 </ul>
               </div>
             </div>
