@@ -52,7 +52,18 @@ export default function Page4() {
                     Chocottoland-Vote
                   </Link>
                 </div>
-              </div>              
+              </div>
+              <div className={styles.modal_project}>
+                <div className={styles.wrap}>
+                  <Link
+                    href="https://cocone-app-hub.coconev.jp/login?redirect=%2F"
+                    target="_blank"
+                    className={styles.figlet}
+                  >
+                    App-hub
+                  </Link>
+                </div>
+              </div>                    
             </div>
           </div>
         </div>
