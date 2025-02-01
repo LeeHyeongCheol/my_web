@@ -20,7 +20,7 @@
           cursor: pointer;
           // X and Y:18px;
           // box-shadow: 10px 5px 5px #d1d9e6;
-          background-color: aqua;
+          background-color: #E3F2FD;
           border-radius: 12px;
           .wrap {
             // opacity: 0;
@@ -40,8 +40,8 @@
           }
         }
         .modal_project:hover {
-          background-color: rebeccapurple;
-          transition: all ease 1s 0s;
+          background-color: #00A8E8;
+          transition: all ease 0.3s;
         }
         @media (max-width: 768px) {
           flex-direction: row;
